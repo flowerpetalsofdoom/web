@@ -1,0 +1,63 @@
+body {
+    background: #101010;
+}
+
+div {
+    width: 80%;
+    top: 15vh;
+    left: 10%;
+    color: magenta;
+    font-size: 2vw;
+    font-family: monospace;
+    font-weight: normal;
+    white-space: pre-wrap;
+}
+img {
+    width: 2vw;
+}
+
+#tagline {
+    color: grey;
+    font-weight: 100;
+}
+
+#pow-txt {
+    display: none;
+    font-weight: 100;
+    color: #e3e3e3 !important;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+}
+footer a.link {
+    padding-right: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+        left: -5vw;
+        width: 107%;
+        top: 10vh;
+        font-size: 2.5vw;
+    }
+    img {
+        width: 2.5vw;
+    }
+
+    footer {
+        left: 35%;
+    }
+    footer a.link {
+        padding-right: 10vw;
+    }
+}
+
+
