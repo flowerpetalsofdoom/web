@@ -1,0 +1,158 @@
+#main {
+    top: 15vh;
+    color: magenta;
+    font-size: 2vw;
+    font-family: monospace;
+    font-weight: normal;
+    white-space: pre-wrap;
+}
+
+/*
+	Using Bootstrap
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+body {
+	background: #000;
+	color: magenta;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 140%;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+p {
+	margin: 0 0 10px;
+	font-size: 1vw;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+.page_title {
+	font-weight: 300;
+	line-height: 120%;
+	margin: 20px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-transform: uppercase;
+}
+
+/* PEN STYLES ========== */
+.row {
+	margin: 0;
+}
+.container {
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 60vh;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+	background-color: rgba(0,0,0,.5); 
+	mix-blend-mode: hard-light;
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	width: 100%;
+}
+.test_link {
+	border: 2px solid #fff;
+	display: block;
+	font-size: .4em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0vh auto 4vh;
+	padding: 0.1em 0.5em;
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url('../img/bk.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url('../img/sjm.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url('../img/sia-getz.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url('../img/proverbs.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+	.test_title {
+		font-size: 3em;
+		word-break: break-word;
+	}
+.test_link {
+    font-size: 1.25em;
+    margin: 0vh auto .5;
+    padding: 0;
+    width: 100%;
+}
+p {
+    margin: 0 auto;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+}
+}
